@@ -55,8 +55,7 @@ Files created for this project are in the repository root.  They are:
 
 1.  `README.md`, this file,
 2.  `run_analysis.R`, the R script that performs the analysis,
-
-3.  `UCI HAR Dataset - Means by Activity and Subject.txt`, a text file version of the analysis output, and
+3.  `UCI HAR Dataset - Means by Activity and Subject.txt`, a text file version of the analysis output,
 4.  `CodeBook.md`, the code book for the output file. 
 
 # Data Flow and Transformations 
@@ -78,6 +77,6 @@ Three alternative implementations are fully specified in the `run_analysis.R` sc
 
 1.  An alternative where meanFreq() measurements are kept in addition to the mean() and std() measurements,
 2.  An alternative where the variable names are formatted with camelback notation and underscores, and
-2.  An alternative where the output means are not calculated for each activity and subject combination but rather separately for each group.
+3.  An alternative where the output means are not calculated for each activity and subject combination but rather separately for each group.
 
 END
