@@ -73,9 +73,10 @@ The analysis is performed as follows, with additional detail in the actual code:
 9.  The output is written to text file.
 
 ## Alternative Implementations
-Two alternative implementations are fully specified in the `run_analysis.R` script but do not run (i.e., are commented out).  The rationale for considering these alternatives are enumerated in the script file as well but are not provided here as technically they are not a part of the formal submission.  These alternative implementations are:
+Three alternative implementations are fully specified in the `run_analysis.R` script but do not run (i.e., are commented out).  The rationale for considering these alternatives are enumerated in the script file as well but are not provided here as technically they are not a part of the formal submission.  These alternative implementations are:
 
-1.  An alternative where meanFreq() measurements are kept in addition to the mean() and std() measurements, and
-2.  An alternative where the output means are not calculated for each activity and subject combination but rather separately for each.
+1.  An alternative where meanFreq() measurements are kept in addition to the mean() and std() measurements,
+2.  An alternative where the variable names are formatted with camelback notation and underscores, and
+2.  An alternative where the output means are not calculated for each activity and subject combination but rather separately for each group.
 
 
