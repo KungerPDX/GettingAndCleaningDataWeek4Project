@@ -54,20 +54,16 @@ Files extracted from the downloaded `UCI HAR Dataset.zip` file (in the repositor
 Files created for this project are in the repository root.  They are:
 
 1.  `README.md`, this file,
-
 2.  `run_analysis.R`, the R script that performs the analysis,
-
-3.  `UCI HAR Dataset - Means by Activity and Subject.txt`, a text file version of the analysis output,
-
-4.  `CodeBook.md`, the code book for the output file. 
-
+3.  `CodeBook.md`, the code book for the output file, and
+4.  `UCI HAR Dataset - Means by Activity and Subject.txt`, a text file version of the analysis output.
 
 # Data Flow and Transformations 
 ## Primary Implementation
 The analysis is performed as follows, with additional detail in the actual code:
 
 1.  The UCI HAR zip file is conditionally downloaded and unzipped,
-2.  The extracted UCI files `activity_labels.txt` and `features.txt` are imported,
+2.  The extracted UCI activity labels and features list are imported,
 3.  The features to keep are identified (i.e., the mean and standard deviation measures),
 4.  The feature names are cleaned up to adhere to course instructions (e.g., all lower case, no punctuation),
 5.  The extracted UCI subject, activity, and feature data is imported for both the training and test partitions and then merged into a single combined table,
