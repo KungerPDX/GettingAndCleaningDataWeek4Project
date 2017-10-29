@@ -35,5 +35,17 @@ You should create one R script called run_analysis.R that does the following.
 4.  Appropriately labels the data set with descriptive variable names. 
 5.  From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
+# Files
+
+## UCI Human Activity Recognition (HAR) Files
+Files download from UCI are contained in the `\UCI HAR Dataset` directory.  A full description of these files may be found in the contained `README.txt` file.  Here is a truncated list of the other files relevant to this project:
+
+1.  `features_info.txt`, which shows information about the variables used on the feature vector,
+2.  `features.txt`, which lists of all features,
+3.  `activity_labels.txt`, which links the class labels with their activity name,
+4.  `train/X_train.txt`, which contains the training set,
+5.  `train/y_train.txt`, which contains the training labels,
+6.  `test/X_test.txt`, which contains the test set, and
+7.  `test/y_test.txt`, which contains the test labels, 
 
 
