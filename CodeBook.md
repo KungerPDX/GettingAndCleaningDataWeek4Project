@@ -7,15 +7,24 @@ Units do not appear to be fully specified in the UCI README.txt or code books.  
 # Variables
 `activity` 
 Type:  Factor
+
 Levels: 1:6
+
 Labels:   `WALKING`, `WALKING_UPSTAIRS`, `WALKING_DOWNSTAIRS`, `SITTING`, `STANDING`, `LAYING`
+
 Unit:  None/nominal
 
+
 `subject`
+
 Type:  Factor
+
 Levels: 1:30
+
 Labels:   Level as character, `1`, `2`, ..., `30`
+
 Unit:  None/nominal
+
 
 `timeseriesbodyaccelerationmeanxdimension`                          
 UCI Base Variable:  tBodyAcc-mean()-X
