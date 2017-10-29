@@ -56,7 +56,7 @@ Files created for this project are in the repository root.  They are:
 1.  `README.md`, this file,
 2.  `run_analysis.R`, the R script that performs the analysis,
 3.  `UCI HAR Dataset - Means by Activity and Subject.txt`, a text file version of the analysis output, and
-4.  `CodeBook.md`, a code book describing variables in `UCI HAR Dataset - Means by Activity and Subject.txt`. 
+4.  `CodeBook.md`, the code book for the output file. 
 
 # Data Flow and Transformations 
 ## Primary Implementation
