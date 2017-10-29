@@ -79,4 +79,4 @@ Three alternative implementations are fully specified in the `run_analysis.R` sc
 2.  An alternative where the variable names are formatted with camelback notation and underscores, and
 2.  An alternative where the output means are not calculated for each activity and subject combination but rather separately for each group.
 
-
+END
